@@ -131,6 +131,10 @@
 
 .btn-danger { padding: 6px 45px !important; margin: 10px 0 0 0; font-size:24px !important; font-family: 'MyriadPro-Bold'; }
 
+.rating-symbol { font-size:18px; }
+
+.rating-symbol { cursor:pointer; }
+
 @media (max-width: 1030px) { #search input { background-position:44% center; } }
 
 @media (max-width: 990px) { #search input { background-position:42% center; } }
