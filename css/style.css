@@ -1,0 +1,124 @@
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src:url(../fonts/HelveticaNeueLTPro-Cn.eot);
+  src:url(../fonts/HelveticaNeueLTPro-Cn.ttf);
+  src:url(../fonts/HelveticaNeueLTPro-Cn.otf);
+}
+
+@font-face {
+  font-family: 'HelveticaNeueMedium';
+  src:url(../fonts/HelveticaNeueLTPro-Md.eot);
+  src:url(../fonts/HelveticaNeueLTPro-Md.ttf);
+  src:url(../fonts/HelveticaNeueLTPro-Md.otf);
+}
+
+.logo { padding: 10px 0; margin:0 auto; background:#d6bf86; text-align:center;}
+
+#search { padding:10px; background:#e7e7e7; }
+
+#search .input-group { width:100%; }
+
+#search input { border-radius:10px; background-image: url(../images/search-icon.png);
+    background-position: 44% center;
+    background-repeat: no-repeat; font-size:30px; font-family: 'HelveticaNeue'; }
+	
+#search .form-control { height:42px !important; }
+	
+#search	input:focus {
+    /* Picked a random icon from Google */
+    background-position: -20px center;
+    text-indent: 0;
+}
+
+#search input::-webkit-input-placeholder {
+   text-align:center;
+}
+
+#search input:-moz-placeholder { /* Firefox 18- */
+   text-align:center;  
+}
+
+#search input::-moz-placeholder {  /* Firefox 19+ */
+   text-align:center;  
+}
+
+#search input:-ms-input-placeholder {  
+   text-align:center; 
+}
+
+.navigation { padding: 0 20px; margin: 0; }
+
+.navigation ul { padding: 0; margin: 0; }
+
+.navigation ul li { list-style:none; padding: 10px 20px; margin: 0; border-bottom: 1px solid #c8c7cc; display:inline-block; width:100%; }
+
+.navigation ul li:last-child { border-bottom: none;}
+
+.navigation ul li a { font-family: 'HelveticaNeue'; color:#937c43; font-size:35px; padding: 0; margin: 0; }
+
+.navigation ul li a i { float:left; }
+
+.navigation ul li a span { padding:0; margin: 10px 0 0 10px; display:inline-block; float:left; }
+
+.m-books-icon { padding: 0; margin: 0; background:url(../images/m-writing-pen-icon.png) no-repeat; display:inline-block; width:61px; height:59px; }
+
+.m-ebooks-icon { padding: 0; margin: 0; background:url(../images/m-ebooks-icon.png) no-repeat; display:inline-block; width:61px; height:59px; }
+
+.m-apps-icon { padding: 0; margin: 0; background:url(../images/m-apps-icon.png) no-repeat; display:inline-block; width:61px; height:59px; }
+
+.m-kids-icon { padding: 0; margin: 0; background:url(../images/m-kids-icon.png) no-repeat; display:inline-block; width:61px; height:59px; }
+
+.m-collection-icon { padding: 0; margin: 0; background:url(../images/m-collection-icon.png) no-repeat; display:inline-block; width:61px; height:59px; }
+
+.nav-arrow { background:url(../images/nav-icon.png) no-repeat; float:right; height:29px; width:18px; margin-top:25px; }
+
+.apps-banner { padding: 0 20px; margin: 0; }
+
+.like-us { padding: 0 20px; margin: 10px 20px; background:#d6bf86; }
+
+.like-us p { font-size:30px; color:#FFF; padding: 0; margin: 0; font-family: 'HelveticaNeueMedium'; }
+
+.social-media-buttons { padding: 0 20px 60px 20px; margin: 0; }
+
+#fb-root { width:50px; float:left; display:inline-block; }
+
+#twitter-root { float:left; display:inline-block; margin: 0 10px; }
+
+.fix-pos { position:fixed; bottom: 0; width:100%; float:left; display:inline-block; left:0; right: 0; }
+
+.fix-pos p { padding: 5px 0; margin: 0; font-size:30px; }
+
+.fix-pos p a { color:#FFF; }
+
+.fix-left { text-align:center; color:#FFF; padding: 0; margin: 0; font-family: 'HelveticaNeueMedium'; width:50%; float:left; background:#e06363; }
+
+.fix-right { text-align:center; color:#FFF; padding: 0; margin: 0; font-family: 'HelveticaNeueMedium'; width:50%; float:left; background:#d6bf86; }
+
+@media (max-width: 1030px) { #search input { background-position:44% center; } }
+
+@media (max-width: 990px) { #search input { background-position:42% center; } }
+
+@media (max-width: 630px) { #search input { background-position:40% center; } }
+
+@media (max-width: 520px) { #search input { background-position:37% center; } }
+
+@media (max-width: 450px) { #search input { background-position:36% center; } }
+
+@media (max-width: 400px) { #search input { background-position:31% center; } }
+
+@media (max-width: 360px) { #search input { background-position:30% center; } }
+
+@media (max-width: 310px) { #search input { background-position:29% center; } }
+
+@media (max-width: 290px) { #search input { background-position:28% center; } }
+
+@media (max-width: 275px) { #search input { background-position:27% center; } }
+
+@media (max-width: 390px) {
+	.navigation ul li a { font-size:20px; }
+	
+	.navigation ul li a span { margin-top:20px; }
+	
+	.nav-arrow { margin-top:21px;}
+	}
