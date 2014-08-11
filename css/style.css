@@ -13,6 +13,20 @@
   src:url(../fonts/HelveticaNeueLTPro-Md.otf);
 }
 
+@font-face {
+  font-family: 'MyriadPro-Bold';
+  src:url(../fonts/MyriadPro-Bold.eot);
+  src:url(../fonts/MyriadPro-Bold.ttf);
+  src:url(../fonts/MyriadPro-Bold.otf);
+}
+
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src:url(../fonts/MyriadPro-Regular.eot);
+  src:url(../fonts/MyriadPro-Regular.ttf);
+  src:url(../fonts/MyriadPro-Regular.otf);
+}
+
 .logo { padding: 10px 0; margin:0 auto; background:#d6bf86; text-align:center;}
 
 #search { padding:10px; background:#e7e7e7; }
@@ -94,6 +108,28 @@
 .fix-left { text-align:center; color:#FFF; padding: 0; margin: 0; font-family: 'HelveticaNeueMedium'; width:50%; float:left; background:#e06363; }
 
 .fix-right { text-align:center; color:#FFF; padding: 0; margin: 0; font-family: 'HelveticaNeueMedium'; width:50%; float:left; background:#d6bf86; }
+
+.books-container { padding: 0 20px; margin: 20px 0; }
+
+.left-books { margin: 0; padding: 0; text-align:center; }
+
+.left-books a { padding: 0px; margin: 0; text-align:center; }
+
+.left-books a img { margin: 0 auto; padding: 10px; border-radius:10px;  border: 1px solid #d7d7d7; }
+
+.right-books { padding: 0; margin: 0; }
+
+.right-books section { padding: 0; margin: 0; color:#a58e54; font-size:24px; font-family: 'MyriadPro-Bold'; }
+
+.right-books article { padding: 0; margin: 0; font-size:22px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
+
+.right-books p { padding: 0; margin: 0; font-size:20px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
+
+.stars { border-bottom: 1px solid #c8c7cc; padding-bottom:10px; margin-bottom:10px; }
+
+.last-books-container { padding-bottom:60px;}
+
+.btn-danger { padding: 6px 45px !important; margin: 10px 0 0 0; font-size:24px !important; font-family: 'MyriadPro-Bold'; }
 
 @media (max-width: 1030px) { #search input { background-position:44% center; } }
 
