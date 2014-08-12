@@ -27,7 +27,7 @@
             </form>
         </div>
     </div>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
     	<div class="carousel-inner">
             <div class="item active">
                 <div class="container books-container">
@@ -278,15 +278,6 @@
         alert('Rating: ' + $(this).val());
       });
     </script>
-    <script>
-		jQuery(document).ready(function() {
-			jQuery('.carousel').each(function(){
-				jQuery(this).carousel({
-					interval: false
-				});
-			});
-		});​
-	</script>
     <script>
 		$('#iconified').on('keyup', function() {
 			var input = $(this);

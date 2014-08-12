@@ -71,15 +71,15 @@
 
 .navigation ul { padding: 0; margin: 0; }
 
-.navigation ul li { list-style:none; padding: 15px 20px; margin: 0; border-bottom: 1px solid #c8c7cc; display:inline-block; width:100%; }
+.navigation ul li { list-style:none; padding: 20px 20px; margin: 0; border-bottom: 1px solid #c8c7cc; display:inline-block; width:100%; }
 
 .navigation ul li:last-child { border-bottom: none;}
 
-.navigation ul li a { font-family: 'HelveticaNeue'; color:#937c43; font-size:35px; padding: 0; margin: 0; }
+.navigation ul li a { font-family: 'HelveticaNeue'; color:#937c43; font-size:40px; padding: 0; margin: 0; }
 
 .navigation ul li a i { float:left; }
 
-.navigation ul li a span { padding:0; margin: 10px 0 0 10px; display:inline-block; float:left; }
+.navigation ul li a span { padding:0; margin: 5px 0 0 10px; display:inline-block; float:left; }
 
 .m-books-icon { padding: 0; margin: 0; background:url(../images/m-writing-pen-icon.png) no-repeat; display:inline-block; width:61px; height:59px; }
 
@@ -97,15 +97,15 @@
 
 .like-us { padding: 0 20px; margin: 10px 20px; background:#d6bf86; }
 
-.like-us p { font-size:30px; color:#FFF; padding: 0; margin: 0; font-family: 'HelveticaNeueMedium'; }
+.like-us p { font-size:40px; color:#FFF; padding: 0; margin: 0; font-family: 'HelveticaNeueMedium'; }
 
-.social-media-buttons { padding: 0 20px 60px 20px; margin: 0; }
+.social-media-buttons { padding: 0 20px 10px 20px; margin: 0; }
 
 #fb-root { width:50px; float:left; display:inline-block; }
 
 #twitter-root { float:left; display:inline-block; margin: 0 10px; }
 
-.fix-pos { position:fixed; bottom: 0; width:100%; float:left; display:inline-block; left:0; right: 0; }
+.fix-pos { width:100%; float:left; display:inline-block;}
 
 .fix-pos p { padding: 5px 0; margin: 0; font-size:30px; }
 
@@ -125,11 +125,11 @@
 
 .right-books { padding: 0; margin: 0; }
 
-.right-books section { padding: 0; margin: 0; color:#a58e54; font-size:24px; font-family: 'MyriadPro-Bold'; }
+.right-books section { padding: 0; margin: 0; color:#a58e54; font-size:30px; font-family: 'MyriadPro-Bold'; }
 
-.right-books article { padding: 0; margin: 0; font-size:22px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
+.right-books article { padding: 0; margin: 0; font-size:28px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
 
-.right-books p { padding: 0; margin: 0; font-size:20px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
+.right-books p { padding: 0; margin: 0; font-size:27px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
 
 .stars { border-bottom: 1px solid #c8c7cc; padding-bottom:10px; margin-bottom:10px; }
 
@@ -151,7 +151,7 @@
 
 .sample-btn { width:100% !important; border-radius: 0 !important; }
 
-.detail-right-books { padding: 0 20px; padding-bottom:70px; }
+.detail-right-books { padding: 0 20px 25px 20px; }
 
 .detail-right-books textarea { font-family: 'MyriadPro-Regular'; font-size:22px; }
 
