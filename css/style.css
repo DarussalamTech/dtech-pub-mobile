@@ -41,9 +41,9 @@
 
 #search .input-group { width:100%; }
 
-#search input { border-radius:10px; font-size:28px; font-family: 'HelveticaNeue'; }
+#search input { border-radius:10px; font-size:35px; font-family: 'HelveticaNeue'; }
 	
-#search .form-control { height:42px !important; }
+#search .form-control { height:50px !important; }
 	
 #search	input:focus {
     /* Picked a random icon from Google */
@@ -71,13 +71,13 @@
 
 .navigation ul { padding: 0; margin: 0; }
 
-.navigation ul li { list-style:none; padding: 30px 20px; margin: 0; border-bottom: 1px solid #c8c7cc; display:inline-block; width:100%; }
+.navigation ul li { list-style:none; padding: 0px 20px; margin: 0; border-bottom: 1px solid #c8c7cc; display:inline-block; width:100%; }
 
 .navigation ul li:last-child { border-bottom: none;}
 
 .navigation ul li a { font-family: 'HelveticaNeue'; color:#937c43; font-size:50px; padding: 0; margin: 0; }
 
-.navigation ul li a i { float:left; margin-top:10px; }
+.navigation ul li a i { float:left; }
 
 .navigation ul li a span { padding:0; margin: 5px 0 0 10px; display:inline-block; float:left; }
 
@@ -97,13 +97,13 @@
 
 .like-us { padding: 0 20px; margin: 10px 20px; background:#d6bf86; }
 
-.like-us p { font-size:40px; color:#FFF; padding: 0; margin: 0; font-family: 'HelveticaNeueMedium'; }
+.like-us p { font-size:30px; color:#FFF; padding: 0; margin: 0; font-family: 'HelveticaNeueMedium'; }
 
 .social-media-buttons { padding: 0 20px 10px 20px; margin: 0; }
 
 #fb-root { width:50px; float:left; display:inline-block; }
 
-#twitter-root { float:left; display:inline-block; margin: 0 10px; }
+#twitter-root { float:left; display:inline-block; margin: 0 5px; }
 
 .fix-pos { width:100%; float:left; display:inline-block;}
 
@@ -151,7 +151,7 @@
 
 .sample-btn { width:100% !important; border-radius: 0 !important; }
 
-.detail-right-books { padding: 0 20px 25px 20px; }
+.detail-right-books { padding: 0 20px 30px 20px; }
 
 .detail-right-books textarea { font-family: 'MyriadPro-Regular'; font-size:22px; }
 
@@ -166,6 +166,7 @@ input.empty::-webkit-input-placeholder { font-family: 'FontAwesome' !important; 
 input.empty::-moz-input-placeholder { font-family: 'FontAwesome' !important; }
 
 input.empty::-ms-input-placeholder { font-family: 'FontAwesome' !important; }
+
 
 /*
 @media (max-width: 1030px) { #search input { background-position:44% center; } }
