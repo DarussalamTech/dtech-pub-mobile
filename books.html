@@ -13,14 +13,14 @@
 <body>
 	<div class="container">
     	<div class="logo">
-        	<a href="#"><img src="images/pub-logo.png" alt="Logo" /></a>
+        	<a href="index.html"><img src="images/pub-logo.png" alt="Logo" /></a>
         </div>
     </div>
     <div class="container">
     	<div id="search">
         	<form class="bs-example bs-example-form">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <input type="text" class="form-control empty" id="iconified" placeholder="&#xF002; Search">
                 </div>
             </form>
         </div>
@@ -28,7 +28,7 @@
     <div class="container books-container">
     	<div class="col-lg-6">
         	<div class="left-books">
-        		<a href="#"><img src="images/golden-hadiths.png" alt="Golden Hadiths" class="img-responsive" /></a>
+        		<a href="books-detail.html"><img src="images/golden-hadiths.png" alt="Golden Hadiths" class="img-responsive" /></a>
             </div>
         </div>
         <div class="col-lg-6">
@@ -65,14 +65,14 @@
         </div>
     	<div class="col-lg-6">
         	<div class="left-books">
-        		<a href="#"><img src="images/golden-hadiths.png" alt="Golden Hadiths" class="img-responsive" /></a>
+        		<a href="books-detail.html"><img src="images/golden-hadiths.png" alt="Golden Hadiths" class="img-responsive" /></a>
             </div>
         </div>
     </div>
     <div class="container books-container">
     	<div class="col-lg-6">
         	<div class="left-books">
-        		<a href="#"><img src="images/golden-hadiths.png" alt="Golden Hadiths" class="img-responsive" /></a>
+        		<a href="books-detail.html"><img src="images/golden-hadiths.png" alt="Golden Hadiths" class="img-responsive" /></a>
             </div>
         </div>
         <div class="col-lg-6">
@@ -109,7 +109,7 @@
         </div>
     	<div class="col-lg-6">
         	<div class="left-books">
-        		<a href="#"><img src="images/golden-hadiths.png" alt="Golden Hadiths" class="img-responsive" /></a>
+        		<a href="books-detail.html"><img src="images/golden-hadiths.png" alt="Golden Hadiths" class="img-responsive" /></a>
             </div>
         </div>
     </div>
@@ -174,5 +174,15 @@
         alert('Rating: ' + $(this).val());
       });
     </script>
+    <script>
+		$('#iconified').on('keyup', function() {
+			var input = $(this);
+			if(input.val().length === 0) {
+				input.addClass('empty');
+			} else {
+				input.removeClass('empty');
+			}
+		});
+	</script>
 </body>
 </html>

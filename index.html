@@ -12,14 +12,14 @@
 <body>
 	<div class="container">
     	<div class="logo">
-        	<a href="#"><img src="images/pub-logo.png" alt="Logo" /></a>
+        	<a href="index.html"><img src="images/pub-logo.png" alt="Logo" /></a>
         </div>
     </div>
     <div class="container">
     	<div id="search">
         	<form class="bs-example bs-example-form">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <input type="text" class="form-control empty" id="iconified" placeholder="&#xF002; Search">
                 </div>
             </form>
         </div>
@@ -27,9 +27,9 @@
     <div class="container">
     	<div class="navigation">
         	<ul>
-            	<li><a href="#"><i class="m-books-icon"></i><span>Islamic Books</span><b class="nav-arrow"></b></a></li>
-                <li><a href="#"><i class="m-ebooks-icon"></i><span>Islamic e-Books</span><b class="nav-arrow"></b></a></li>
-                <li><a href="#"><i class="m-apps-icon"></i><span>Islamic Apps</span><b class="nav-arrow"></b></a></li>
+            	<li><a href="books.html"><i class="m-books-icon"></i><span>Islamic Books</span><b class="nav-arrow"></b></a></li>
+                <li><a href="books.html"><i class="m-ebooks-icon"></i><span>Islamic e-Books</span><b class="nav-arrow"></b></a></li>
+                <li><a href="books.html"><i class="m-apps-icon"></i><span>Islamic Apps</span><b class="nav-arrow"></b></a></li>
                 <li><a href="#"><i class="m-kids-icon"></i><span>Islamic Kid Section</span><b class="nav-arrow"></b></a></li>
                 <li><a href="#"><i class="m-collection-icon"></i><span>Free Collection</span><b class="nav-arrow"></b></a></li>
             </ul>
@@ -78,5 +78,15 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
     </script>
+    <script>
+		$('#iconified').on('keyup', function() {
+			var input = $(this);
+			if(input.val().length === 0) {
+				input.addClass('empty');
+			} else {
+				input.removeClass('empty');
+			}
+		});
+	</script>
 </body>
 </html>
