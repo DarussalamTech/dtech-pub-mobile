@@ -135,6 +135,24 @@
 
 .rating-symbol { cursor:pointer; }
 
+.detail-stars { border-bottom: none !important; }
+
+.social-media-icons a img { float:left; display:inline-block; padding: 0; margin: 7px 10px 10px 0; }
+
+.detail-img { max-width:307px; margin: 0 auto; padding: 10px; border-radius:10px;  border: 1px solid #d7d7d7; }
+
+.detail-img a img { border:none !important; padding: 0 !important;  }
+
+.sample-btn { width:100% !important; border-radius: 0 !important; }
+
+.detail-right-books { padding: 0 20px; padding-bottom:70px; }
+
+.detail-right-books textarea { font-family: 'MyriadPro-Regular'; font-size:22px; }
+
+.rating { float:left; margin-right:10px !important; }
+
+.rating-text-stars { margin-top:7px !important; }
+
 @media (max-width: 1030px) { #search input { background-position:44% center; } }
 
 @media (max-width: 990px) { #search input { background-position:42% center; } }
