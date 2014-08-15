@@ -135,7 +135,7 @@ input.empty::-ms-input-placeholder { font-family: 'FontAwesome' !important; }
 
 .close { color:#FFF !important; font-weight:normal !important; font-size:50px !important; top: -45px !important; right:5px !important; opacity:1 !important; position:absolute !important; text-shadow: none !important; }
 
-.modal-dialog { top:10% !important; }
+.modal-dialog { top:20% !important; }
 
 .modal-title { font-size:48px; color:#a58e54; font-family: 'MyriadPro-Bold'; }
 
