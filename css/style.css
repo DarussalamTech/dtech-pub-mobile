@@ -1,85 +1,47 @@
 
-@font-face {
-  font-family: 'HelveticaNeue';
-  src:url(../fonts/HelveticaNeueLTPro-Cn.eot);
-  src:url(../fonts/HelveticaNeueLTPro-Cn.ttf);
-  src:url(../fonts/HelveticaNeueLTPro-Cn.otf);
-}
+@font-face { font-family: 'HelveticaNeue'; src:url(../fonts/HelveticaNeueLTPro-Cn.eot); src:url(../fonts/HelveticaNeueLTPro-Cn.ttf); src:url(../fonts/HelveticaNeueLTPro-Cn.otf); }
 
-@font-face {
-  font-family: 'FontAwesome';
-  src:url(../fonts/fontawesome-webfont.eot);
-  src:url(../fonts/fontawesome-webfont.ttf);
-  src:url(../fonts/fontawesome-webfont.svg);
-  src:url(../fonts/fontawesome-webfont.woff);
-}
+@font-face { font-family: 'FontAwesome'; src:url(../fonts/fontawesome-webfont.eot); src:url(../fonts/fontawesome-webfont.ttf); src:url(../fonts/fontawesome-webfont.svg); src:url(../fonts/fontawesome-webfont.woff); }
 
-@font-face {
-  font-family: 'HelveticaNeueMedium';
-  src:url(../fonts/HelveticaNeueLTPro-Md.eot);
-  src:url(../fonts/HelveticaNeueLTPro-Md.ttf);
-  src:url(../fonts/HelveticaNeueLTPro-Md.otf);
-}
+@font-face { font-family: 'HelveticaNeueMedium'; src:url(../fonts/HelveticaNeueLTPro-Md.eot); src:url(../fonts/HelveticaNeueLTPro-Md.ttf); src:url(../fonts/HelveticaNeueLTPro-Md.otf); }
 
-@font-face {
-  font-family: 'MyriadPro-Bold';
-  src:url(../fonts/MyriadPro-Bold.eot);
-  src:url(../fonts/MyriadPro-Bold.ttf);
-  src:url(../fonts/MyriadPro-Bold.otf);
-}
+@font-face { font-family: 'MyriadPro-Bold'; src:url(../fonts/MyriadPro-Bold.eot); src:url(../fonts/MyriadPro-Bold.ttf); src:url(../fonts/MyriadPro-Bold.otf); }
 
-@font-face {
-  font-family: 'MyriadPro-Regular';
-  src:url(../fonts/MyriadPro-Regular.eot);
-  src:url(../fonts/MyriadPro-Regular.ttf);
-  src:url(../fonts/MyriadPro-Regular.otf);
-}
+@font-face { font-family: 'MyriadPro-Regular'; src:url(../fonts/MyriadPro-Regular.eot); src:url(../fonts/MyriadPro-Regular.ttf); src:url(../fonts/MyriadPro-Regular.otf); }
 
-.logo { padding: 10px 0; margin:0 auto; background:#d6bf86; text-align:center;}
+.logo { padding: 15px 0 10px 0; margin:0 auto; background:#d6bf86; text-align:center; border-bottom: 2px solid #b4a070; }
 
-#search { padding:10px; background:#e7e7e7; }
+#search { padding:15px 10px; background:#e7e7e7; border-top: 1px solid #b2b2b2; border-bottom: 1px solid #b2b2b2; }
 
 #search .input-group { width:100%; }
 
-#search input { border-radius:10px; font-size:35px; font-family: 'HelveticaNeue'; }
+#search input { border-radius:10px; font-size:35px; font-family: 'MyriadPro-Regular'; }
+
+.form-control::-moz-placeholder { opacity:0.6 !important; }
 	
-#search .form-control { height:50px !important; }
-	
-#search	input:focus {
-    /* Picked a random icon from Google */
-    background-position: -20px center;
-    text-indent: 0;
-}
+#search .form-control { height:50px !important; border:none; box-shadow:none; }
 
-#search input::-webkit-input-placeholder {
-   text-align:center;
-}
+#search input::-webkit-input-placeholder { text-align:center; }
 
-#search input:-moz-placeholder { /* Firefox 18- */
-   text-align:center;  
-}
+#search input:-moz-placeholder { /* Firefox 18- */ text-align:center;   }
 
-#search input::-moz-placeholder {  /* Firefox 19+ */
-   text-align:center;  
-}
+#search input::-moz-placeholder {  /* Firefox 19+ */ text-align:center; }
 
-#search input:-ms-input-placeholder {  
-   text-align:center; 
-}
+#search input:-ms-input-placeholder { text-align:center; }
 
 .navigation { padding: 0 20px; margin: 0; }
 
 .navigation ul { padding: 0; margin: 0; }
 
-.navigation ul li { list-style:none; padding: 0px 20px; margin: 0; border-bottom: 1px solid #c8c7cc; display:inline-block; width:100%; }
+.navigation ul li { list-style:none; padding: 25px 20px; margin: 0; border-bottom: 1px solid #c8c7cc; display:inline-block; width:100%; }
 
 .navigation ul li:last-child { border-bottom: none;}
 
-.navigation ul li a { font-family: 'HelveticaNeue'; color:#937c43; font-size:50px; padding: 0; margin: 0; }
+.navigation ul li a { font-family: 'MyriadPro-Regular'; color:#937c43; font-size:40px; padding: 0; margin: 0; }
 
-.navigation ul li a i { float:left; }
+.navigation ul li a i { float:left; padding: 0; margin: 0; }
 
-.navigation ul li a span { padding:0; margin: 5px 0 0 10px; display:inline-block; float:left; }
+.navigation ul li a span { padding:0; margin: 7px 0 0 10px; display:inline-block; float:left; }
 
 .m-books-icon { padding: 0; margin: 0; background:url(../images/m-writing-pen-icon.png) no-repeat; display:inline-block; width:61px; height:59px; }
 
@@ -93,7 +55,7 @@
 
 .nav-arrow { background:url(../images/nav-icon.png) no-repeat; float:right; height:29px; width:18px; margin-top:25px; }
 
-.apps-banner { padding: 0 20px; margin: 0; }
+.apps-banner { padding: 0 20px; margin: 10px 0 0 0; }
 
 .like-us { padding: 0 20px; margin: 10px 20px; background:#d6bf86; }
 
@@ -167,27 +129,10 @@ input.empty::-moz-input-placeholder { font-family: 'FontAwesome' !important; }
 
 input.empty::-ms-input-placeholder { font-family: 'FontAwesome' !important; }
 
+.col-lg-6-issue { display:none; }
 
-/*
-@media (max-width: 1030px) { #search input { background-position:44% center; } }
+.navbar-default { position:absolute !important; }
 
-@media (max-width: 990px) { #search input { background-position:42% center; } }
+@media (max-width: 500px) { .col-lg-6-issue { width:90% !important; display:inline; float:left; margin: 10px auto; } .books-inner-part { display:none; } .stars { border-bottom: none !important; } }
 
-@media (max-width: 630px) { #search input { background-position:40% center; } }
-
-@media (max-width: 520px) { #search input { background-position:37% center; } }
-
-@media (max-width: 450px) { #search input { background-position:36% center; } }
-
-@media (max-width: 400px) { #search input { background-position:31% center; } }
-
-@media (max-width: 360px) { #search input { background-position:30% center; } }
-
-@media (max-width: 310px) { #search input { background-position:29% center; } }
-
-@media (max-width: 290px) { #search input { background-position:28% center; } }
-
-@media (max-width: 275px) { #search input { background-position:27% center; } }
-*/
-
-@media (max-width: 390px) { .navigation ul li a { font-size:20px; } .navigation ul li a span { margin-top:20px; } .nav-arrow { margin-top:21px;} }
+@media (max-width: 600px) { .btn-danger { padding: 6px 25px !important; font-size:20px !important; font-family: 'MyriadPro-Bold'; } .navigation ul li a { font-size:18px; } .navigation ul li a span { margin-top:20px; } .nav-arrow { margin-top:21px;} #search input { font-size:18px;} .right-books p { font-size:20px; } .right-books article { font-size:20px; } .right-books section { font-size:22px; } }
