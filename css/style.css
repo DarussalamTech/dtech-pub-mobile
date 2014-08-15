@@ -133,6 +133,22 @@ input.empty::-ms-input-placeholder { font-family: 'FontAwesome' !important; }
 
 .navbar-default { position:absolute !important; }
 
+.close { color:#FFF !important; font-weight:normal !important; font-size:50px !important; top: -45px !important; right:5px !important; opacity:1 !important; position:absolute !important; text-shadow: none !important; }
+
+.modal-dialog { top:10% !important; }
+
+.modal-title { font-size:48px; color:#a58e54; font-family: 'MyriadPro-Bold'; }
+
+.modal-header { border-bottom:none !important; padding-bottom:0px !important; }
+
+.modal-footer { border-top:none !important; padding-top:0px !important; }
+
+@media (max-width: 1200px) {
+
+.modal-body iframe { top:0; left:0; width:100%; height:500px; }
+
+}
+
 @media (max-width: 500px) { .col-lg-6-issue { width:90% !important; display:inline; float:left; margin: 10px auto; } .books-inner-part { display:none; } .stars { border-bottom: none !important; } }
 
 @media (max-width: 600px) { .btn-danger { padding: 6px 25px !important; font-size:20px !important; font-family: 'MyriadPro-Bold'; } .navigation ul li a { font-size:18px; } .navigation ul li a span { margin-top:20px; } .nav-arrow { margin-top:21px;} #search input { font-size:18px;} .right-books p { font-size:20px; } .right-books article { font-size:20px; } .right-books section { font-size:22px; } }

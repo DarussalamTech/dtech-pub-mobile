@@ -85,7 +85,25 @@
                         <div class="left-books">
                         	<div class="detail-img">
                             	<a href="#"><img src="images/golden-hadiths.png" alt="Golden Hadiths" class="img-responsive" /></a>
-                                <button type="button" class="btn btn-danger sample-btn">Try a Sample</button>
+                                <button class="btn btn-danger sample-btn" data-toggle="modal" data-target="#myModal">Try a Sample</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                	<div class="modal-dialog">
+                                    	<div class="modal-content">
+                                        	<div class="modal-header">
+                                            	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title" id="myModalLabel">200 Golden Hadiths</h4>
+                                          	</div>
+                                            <div class="modal-body">
+                                            	<iframe src="pdf/pdfSample.pdf" width="500" height="500"></iframe>
+                                         	</div>
+                                            <div class="modal-footer">
+                                            	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                         	</div>
+                                     	</div>
+                                  	</div>
+                             	</div>
                             </div>
                         </div>
                     </div>
