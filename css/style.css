@@ -89,6 +89,8 @@
 
 .right-books section { padding: 0; margin: 0; color:#a58e54; font-size:30px; font-family: 'MyriadPro-Bold'; }
 
+.right-books section a { color:#a58e54; }
+
 .right-books article { padding: 0; margin: 0; font-size:28px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
 
 .right-books p { padding: 0; margin: 0; font-size:27px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
@@ -159,7 +161,7 @@ input.empty::-ms-input-placeholder { font-family: 'FontAwesome' !important; }
 
 .about-us li { padding: 5px 0; margin: 0 0 0 30px; font-size:28px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
 
-.scrollToTop { color:#2d2d2d; text-align:right; padding: 0 30px; margin: 0; font-size:30px; float:right; }
+.scrollToTop { color:#2d2d2d; text-align:right; padding: 0 30px; margin: 0; font-size:40px; float:right; }
 
 .scrollToTop i:hover, .scrollToTop i:focus, .scrollToTop i:active { color:#a58e54 !important; }
 
