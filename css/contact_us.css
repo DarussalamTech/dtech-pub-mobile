@@ -25,7 +25,7 @@
 
 .contact_us_left_part input[type=text].captcha-field.error{background:red}
 
-.contact-us-form-text{width:100%;background:url(../images/text-field-bg.jpg) no-repeat #dedede;border:none;-moz-box-shadow:inset 0 0 3px #959494;-webkit-box-shadow:inset 0 0 3px #959494;box-shadow:inset 0 0 3px #959494;height:40px;background-size:cover;font-family:MyraidPro;padding:0 5px; font-size:25px;}
+.contact-us-form-text{width:100%;background:url(../images/text-field-bg.jpg) no-repeat #dedede;border:none;-moz-box-shadow:inset 0 0 3px #959494;-webkit-box-shadow:inset 0 0 3px #959494;box-shadow:inset 0 0 3px #959494;height:45px;background-size:cover;font-family:MyraidPro;padding:5px; font-size:25px;}
 
 .contact-us-comments{resize:none;width:100%;background:#dedede;border:none;-moz-box-shadow:inset 0 0 3px #959494;-webkit-box-shadow:inset 0 0 3px #959494;box-shadow:inset 0 0 3px #959494;height:132px;font-family:MyraidPro;padding:0 5px; font-size:25px;}
 
