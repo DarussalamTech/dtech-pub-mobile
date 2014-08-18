@@ -95,7 +95,7 @@
 
 .right-books p { padding: 0; margin: 0; font-size:27px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
 
-.stars { border-bottom: 1px solid #c8c7cc; padding-bottom:10px; margin-bottom:10px; }
+.stars { border-bottom: 1px solid #c8c7cc; padding-bottom:10px; margin-top:10px; }
 
 .last-books-container { padding-bottom:60px;}
 
@@ -121,7 +121,7 @@
 
 .rating { float:left; margin-right:10px !important; }
 
-.rating-text-stars { margin-top:7px !important; }
+.rating-text-stars { margin-top:12px !important; }
 
 input.empty { font-family: 'FontAwesome' !important; font-style: normal; font-weight: normal; text-decoration: inherit; }
 
