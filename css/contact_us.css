@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: CandaraRegular; src:url(../fonts/Candara.eot);
+}
+
+@font-face {
+    font-family: CandaraRegular; src:url(../fonts/Candara.ttf);
+}
+
+@font-face {
+    font-family: Candarabold; src:url(../fonts/Candarab.eot);
+}
+
+@font-face {
+    font-family: Candarabold; src:url(../fonts/Candarab.ttf);
+}
+
+@font-face{font-family:ArnoPro-Regular;src:url(../fonts/ArnoPro-Regular.eot)}@font-face{font-family:ArnoPro-Regular;src:url(../fonts/ArnoPro-Regular.ttf)}@font-face{font-family:ArnoPro-Regular;src:url(../fonts/ArnoPro-Regular.otf)}
+
+.contact_us_right_part{ border-left:1px solid #d2d2d2;padding-top:20px }
+
+.contact_us_left_part p{color:#c9a136;font-family: 'MyriadPro-Bold';font-size:15.49px;padding:7px 0 7px 6px;margin:0}
+
+.contact_us_left_part a.g_cp_link{color:#c9a136;font-family:MyraidPro-Bold;font-size:15.49px}
+
+.contact_us_left_part input[type=text].captcha-field.error{background:red}
+
+.contact-us-form-text{width:100%;background:url(../images/text-field-bg.jpg) no-repeat #dedede;border:none;-moz-box-shadow:inset 0 0 3px #959494;-webkit-box-shadow:inset 0 0 3px #959494;box-shadow:inset 0 0 3px #959494;height:26px;background-size:cover;font-family:MyraidPro;padding:0 5px}
+
+.contact-us-comments{resize:none;width:100%;background:#dedede;border:none;-moz-box-shadow:inset 0 0 3px #959494;-webkit-box-shadow:inset 0 0 3px #959494;box-shadow:inset 0 0 3px #959494;height:92px;font-family:MyraidPro;padding:0 5px}
+
+.contact-us-button{border:none;background:#e3b948;width:130px;color:#fafafa;font-size:22px;font-family:CandaraRegular;float:right;padding:5px 0;margin:18px 0 0}
+
+.contact-us-text-right{padding-left:10px;padding-right:10px}
+
+.contact-us-text-right h3{color:#c9a136;font-family:"Times New Roman",Times,serif;font-size:35px;padding:0 0 10px;margin:0;text-shadow:.5px .87px 0 #ffd76c}
+
+.contact-us-text-right p{color:#363636;font-size:16px;font-family:CandaraRegular;padding:0;margin:0;text-shadow:.5px .87px 0 #ebebeb}
+
+.contact-us-text-right article{color:#c9a136;font-size:16px;font-family:CandaraRegular;padding:15px 0 0;margin:0;text-shadow:.5px .87px 0 #e7d6b4}
+
+#map-canvas{border:2px solid #acacac;margin-top:25px; width:100% !important; margin-bottom:40px; }

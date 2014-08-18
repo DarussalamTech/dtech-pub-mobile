@@ -149,6 +149,20 @@ input.empty::-ms-input-placeholder { font-family: 'FontAwesome' !important; }
 
 .modal-footer p a img { margin: 10px 10px 0 10px !important; text-align:center !important; display:inline !important; }
 
+.about-us { padding: 0 20px; margin:0; }
+
+.about-us section { padding: 25px 0 5px 0; margin: 0; color:#a58e54; font-size:30px; font-family: 'MyriadPro-Bold'; }
+
+.about-us article { padding: 5px 0; margin: 0 0 0 0; font-size:28px; color:#a58e54; font-family: 'MyriadPro-Regular'; }
+
+.about-us p { padding: 5px 0; margin: 0; font-size:28px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
+
+.about-us li { padding: 5px 0; margin: 0 0 0 30px; font-size:28px; color:#2d2d2d; font-family: 'MyriadPro-Regular'; }
+
+.scrollToTop { color:#2d2d2d; text-align:right; padding: 0 30px; margin: 0; font-size:30px; float:right; }
+
+.scrollToTop i:hover, .scrollToTop i:focus, .scrollToTop i:active { color:#a58e54 !important; }
+
 @media (max-width: 1200px) {
 
 .modal-body iframe { top:0; left:0; width:100%; min-height:72%; }
